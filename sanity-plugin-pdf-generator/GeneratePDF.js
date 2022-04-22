@@ -1,7 +1,7 @@
-import React from 'react'
-import {Box, Text, Stack} from '@sanity/ui'
+import React from "react";
+import { Box, Text, Stack } from "@sanity/ui";
 
-class MyTool extends React.Component {
+class GeneratePDF extends React.Component {
   render() {
     return (
       <Box padding={4} paddingY={5}>
@@ -10,8 +10,8 @@ class MyTool extends React.Component {
           <Text as="p">Tools are just React components!</Text>
         </Stack>
       </Box>
-    )
+    );
   }
 }
 
-export default MyTool
+export default GeneratePDF;
