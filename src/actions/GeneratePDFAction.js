@@ -46,7 +46,7 @@ export const GeneratePDFAction = (props) => {
 
   if (textLines.length === 0)
     textLines = [
-      "It looks like you haven't got any text fields in your schema. PDF Generator will render the content of any fields of type 'text' in alphabetical order based on field name. If a field named 'title' is present, it will render its value first, styled as a heading.",
+      "It looks like you haven't got any text fields in your schema! PDF generator will render the content of any fields containg text in ascending order based on field name. If a field named 'title' is present, its value will be rendered first.",
     ];
   textLines = textLines.filter((line) => line.slice(0, 1) !== "@");
   for (let i = 0; i < textLines.length / maxLines; i++) {
