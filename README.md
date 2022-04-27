@@ -1,10 +1,10 @@
 # sanity-plugin-pdf-generator
 
-Generate a PDF from a Sanity document or document list.
+Generate a PDF from a Sanity document.
 
 ## Usage
 
-...
+The plugin adds an option to generate a PDF from the document actions dropdown.
 
 ## License
 
