@@ -1,7 +1,7 @@
 {
   "name": "sanity-plugin-pdf-generator",
   "private": false,
-  "version": "1.0.7",
+  "version": "1.0.12",
   "description": "Generate a PDF from a Sanity document or document list",
   "repository": {
     "type": "git",
