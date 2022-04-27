@@ -1,0 +1,8 @@
+{
+  "parts": [
+    {
+      "implements": "part:@sanity/base/document-actions/resolver",
+      "path": "src/index.js"
+    }
+  ]
+}

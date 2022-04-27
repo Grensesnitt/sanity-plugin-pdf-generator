@@ -1,7 +1,7 @@
 {
   "name": "sanity-plugin-pdf-generator",
-  "private": true,
-  "version": "1.0.0",
+  "private": false,
+  "version": "1.0.6",
   "description": "Generate a PDF from a Sanity document or document list",
   "repository": {
     "type": "git",
@@ -15,11 +15,15 @@
   },
   "homepage": "https://github.com/Grensesnitt/sanity-plugin-pdf-generator#readme",
   "peerDependencies": {
-    "react": "^15.0.0"
+    "react": "^17.0.0"
   },
   "sanityTemplate": {
     "suggestedName": "sanity-plugin-pdf-generator",
     "requiresConfig": false,
     "minimumBaseVersion": "2.28.2"
+  },
+  "dependencies": {
+    "jspdf": "^2.5.1",
+    "@sanity/ui": "^0.37.8"
   }
 }
